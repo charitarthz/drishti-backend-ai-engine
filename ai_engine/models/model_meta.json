@@ -1,0 +1,54 @@
+{
+  "trained_samples": 18213,
+  "feature_columns": [
+    "log_original_cost",
+    "multi_state",
+    "agency_freq",
+    "sector_freq",
+    "ministry_freq",
+    "approval_to_start_months",
+    "approval_year",
+    "planned_duration_months",
+    "age_at_t_months",
+    "cost_overrun_so_far_pct",
+    "cost_already_revised",
+    "expenditure_vs_revised",
+    "progress_pct",
+    "progress_vs_expected",
+    "time_overrun_months",
+    "deadline_revised_so_far",
+    "total_doc_push_months",
+    "months_to_revised_doc",
+    "spend_vs_progress",
+    "exp_per_pct",
+    "progress_rate_3m",
+    "spend_rate_3m",
+    "cost_change_3m",
+    "progress_stall",
+    "doc_push_recent",
+    "cost_revisions_so_far"
+  ],
+  "metrics": {
+    "high_risk": {
+      "accuracy": 0.9319242382651661,
+      "precision": 0.9791356184798807,
+      "recall": 0.9053743683968765,
+      "f1": 0.9408114558472553,
+      "roc_auc": 0.9833835816714618
+    },
+    "deadline_slip": {
+      "accuracy": 0.8278891023881416,
+      "precision": 0.6170583115752829,
+      "recall": 0.7912946428571429,
+      "f1": 0.693398533007335,
+      "roc_auc": 0.9070778105335691
+    },
+    "cost_escalation": {
+      "accuracy": 0.9736480922316771,
+      "precision": 0.5555555555555556,
+      "recall": 0.7522123893805309,
+      "f1": 0.6390977443609023,
+      "roc_auc": 0.9818822231692947
+    }
+  }
+}
